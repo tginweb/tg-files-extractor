@@ -16,7 +16,7 @@
     "utility",
     "nodejs"
   ],
-  "author": "Your Name",
+  "author": "Alexey Kolotygin",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2"
