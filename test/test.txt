@@ -11,5 +11,5 @@ export function findFiles() {
 /* ==== index.html ==== */
 <!DOCTYPE html>
 <html>
-<body>Content</body>
+<body>Content </body>
 </html>
