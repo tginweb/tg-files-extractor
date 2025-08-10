@@ -1,0 +1,24 @@
+{
+  "name": "files-extractor",
+  "version": "1.0.0",
+  "description": "Utility to extract files and directories from a text file with specific delimiters",
+  "main": "lib/extractor.js",
+  "bin": {
+    "extract-files": "bin/files-extractor.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "extract",
+    "files",
+    "text",
+    "utility",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
