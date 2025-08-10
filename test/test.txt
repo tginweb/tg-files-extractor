@@ -1,0 +1,15 @@
+/* ==== pages/one.ts ==== */
+import React from 'react';
+
+function Component() {
+  return <div>Hello</div>;
+}
+/* ==== util/finder.js ==== */
+export function findFiles() {
+  console.log('Searching...');
+}
+/* ==== index.html ==== */
+<!DOCTYPE html>
+<html>
+<body>Content</body>
+</html>
