@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-env node */
 
 const extractor = require('../lib/extractor');
 const chalk = require('chalk');
