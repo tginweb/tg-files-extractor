@@ -5,9 +5,9 @@ Utility to extract files from text with specific delimiters.
 ## Installation
 
 ```bash
-npm install -g tg-files-extractor
+npm install -g tginweb/tg-files-extractor
 # or
-yarn global add tg-files-extractor
+yarn global add tginweb/tg-files-extractor
 ```
 
 ## Usage
