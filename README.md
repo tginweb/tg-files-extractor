@@ -13,7 +13,7 @@ yarn global add tg-files-extractor
 ## Usage
 
 ```bash
-tg-extract input.txt
+tg-extract-files input.txt
 ```
 
 ## Input format
