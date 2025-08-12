@@ -8,12 +8,8 @@
   },
   "scripts": {
     "test": "node ./bin/tg-extract-files.js ./test -o ./test/result",
-    "release:minor": "npm run bump:minor && npm run tag && npm run github-release",
     "release:patch": "npm run bump:patch && npm run tag && npm run github-release",
-    "release:major": "npm run bump:major && npm run tag && npm run github-release",
     "bump:patch": "npm version patch -m 'Bump patch version to %s'",
-    "bump:minor": "npm version minor -m 'Bump minor version to %s'",
-    "bump:major": "npm version major -m 'Bump major version to %s'",
     "tag": "git tag -a v$(node -p \"require('./package.json').version\") -m \"Release v$(node -p \\\"require('./package.json').version\\\")\"",
     "github-release": "gh release create v$(node -p \"require('./package.json').version\") --generate-notes",
     "preversion": "npm test",
