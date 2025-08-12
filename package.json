@@ -17,7 +17,8 @@
     "tag": "git tag -a v$(node -p \"require('./package.json').version\") -m \"Release v$(node -p \\\"require('./package.json').version\\\")\"",
     "github-release": "gh release create v$(node -p \"require('./package.json').version\") --generate-notes",
     "preversion": "npm test",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "git:push-tags": "git push --tags"
   },
   "keywords": [
     "extract",
