@@ -1,7 +1,7 @@
 {
   "name": "tg-files-extractor",
   "version": "1.0.0",
-  "description": "Utility to extract files and directories from a text file with specific delimiters",
+  "description": "Utility to extract files and directories from a text file with specific delimiters ",
   "main": "lib/extractor.js",
   "bin": {
     "tg-extract-files": "bin/tg-extract-files.js"
