@@ -1,0 +1,10 @@
+/* ==== files/file-1.ts ==== */
+file-1111
+/* ==== files/file-2.ts ==== */
+file-222
+file-333
+// ... NOT-CHANGED: 4-6 ...
+
+line-444
+new-line-999
+new-line-000
