@@ -20,7 +20,7 @@ tg-extract-files input.txt
 
 ```
 /* ==== path/to/file.js ==== */
-Content of the file 1
+Content of the file 2
 /* ==== another/file.txt ==== */
 Another content
 ```
